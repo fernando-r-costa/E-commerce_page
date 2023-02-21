@@ -34,7 +34,7 @@ Users should be able to:
 
 ## My process
 
-- [ ] Desktop-design
+- [10%] Desktop-design
 - [ ] Desktop-design-lightbox
 - [ ] Mobile-design
 - [ ] Interactive
