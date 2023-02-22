@@ -1,1 +1,23 @@
-font-family: 'Kumbh Sans', sans-serif;
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+	padding: 20px;
+}
+
+.cabecalho {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+    left: 300px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
