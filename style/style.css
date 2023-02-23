@@ -1,23 +1,36 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
-}
-
-header {
-	padding: 20px;
+	width: 1440px;
 }
 
 .cabecalho {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 10fr repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin: 30px 120px;
+	padding: 10px 0 40px 0;
+	align-items: center;
+	border-bottom: 2px solid;
+	border-bottom-color: hsl(223, 64%, 98%);
 }
 
 nav {
-	position: absolute;
-    left: 300px;
+	margin: 0 0 0 30px;
 }
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	padding: 0 10px;
+	color: hsl(219, 9%, 45%);
+	font-size: 18px;
+}
+
+.carrinho {
+	margin: 0 50px;
+}
+
+.avatar img {
+	width: 50%;
 }
