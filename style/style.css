@@ -27,15 +27,31 @@ nav li {
 	font-size: 18px;
 }
 
+nav li:hover {
+	filter: opacity(50%);
+	cursor: pointer;
+}
+
 .carrinho {
 	margin: 0 50px;
+}
+
+.carrinho:hover {
+	filter: opacity(50%);
+	cursor: pointer;
 }
 
 .avatar img {
 	width: 50%;
 }
 
+.avatar:hover {
+	filter: opacity(50%);
+	cursor: pointer;
+}
+
 .container {
+	margin: 100px 0 0 170px;
 	width: fit-content;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -43,9 +59,25 @@ nav li {
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 }
+
+.container img {
+	width: 100px;
+	margin: 10px ;
+	border-radius: 10px;
+}
+
+.container img:hover {
+	box-shadow: 0 0 3px 2px hsl(26, 100%, 55%);
+	filter: opacity(50%);
+	cursor: pointer;
+  }
 	
 .destaque {
 	grid-area: 1 / 1 / 2 / 5;
+}
+
+.destaque img {
+	width: 530px;
 }
 
 .imagem1 {
