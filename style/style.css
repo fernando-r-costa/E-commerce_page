@@ -158,9 +158,46 @@ nav li:hover {
 	text-decoration-line: line-through;
 }
 
-.input-quantidade {
+.button-quantidade {
 	grid-area: 7 / 5 / 8 / 6;
 	padding-left: 120px;
+}
+
+.button-quantidade button {
+	width: 180px;
+	background-color:hsl(223, 64%, 98%);
+	border: none;
+	border-radius: 10px;
+	color: black;
+	padding: 5px 25px 15px 20px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.button-quantidade img {
+	width: 10%;
+}
+
+#button-minus {
+	width: 10%;
+	border-radius: 0;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	top: 4px;
+	left: -40px;
+}
+
+#button-plus {
+	width: 10%;
+	border-radius: 0;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	top: 8px;
+	left: 40px;
 }
 
 .button-adicionar {
@@ -169,23 +206,37 @@ nav li:hover {
 }
 
 .button-adicionar button {
-	width: 300px;
+	width: 310px;
 	background-color:hsl(26, 100%, 55%);
-	background-image: url(/CSV/Projetos/ecommerce-product-page-main/images/icon-cart.svg);
-	background-position: 15px 15px;
-  	background-repeat: no-repeat;
 	border: none;
 	border-radius: 10px;
 	color: white;
-	padding: 15px 32px;
+	padding: 15px 15px 15px 25px;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 20px;
 	letter-spacing: 1.5px;
 	display: inline-block;
-	margin: 4px 2px;
 	cursor: pointer;
 	box-shadow: 0 0 0 0 hsl(25, 100%, 94%), 0 20px 20px 0 hsl(25, 100%, 94%);
+}
 
+#button-cart {
+	width: 10%;
+	border-radius: 0;
+	margin: 0;
+	position: relative;
+	top: 2px;
+	left: -10px;
+	filter: brightness(500%);
+}
+
+.button-adicionar:hover {
+	filter: opacity(70%);
+	transform: scale(1.03);
+}
+
+#button-cart:hover {
+	box-shadow: none;
 }
