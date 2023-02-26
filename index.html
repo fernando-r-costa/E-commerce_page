@@ -1,82 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/reset.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/reset.css">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/style.css">
 
-    <title>E-commerce página do produto</title>
+  <title>E-commerce página do produto</title>
 
-  </head>
+</head>
 
-  <body>
-    <header class="cabecalho">
-      <div class="logo">
-        <h1><img src="./images/logo.svg" alt="Logo da sneakers"></h1>
+<body>
+  <header class="cabecalho">
+    <div class="menu">
+      <img src="./images/icon-menu.svg" >
+    </div>
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Logo da sneakers">
+    </div>
+    <div class="lista">
+      <nav>
+        <ul>
+          <li>Coleções</li>
+          <li>Masculino</li>
+          <li>Feminino</li>
+          <li>Sobre</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="carrinho">
+      <img src="./images/icon-cart.svg" alt="carrinho supermercado">
+    </div>
+    <div class="avatar">
+      <img src="./images/image-avatar.png" alt="carrinho supermercado">
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="destaque"><img src="./images/image-product-1.jpg"></div>
+      <div class="imagem1"><img src="./images/image-product-1-thumbnail.jpg"></div>
+      <div class="imagem2"><img src="./images/image-product-2-thumbnail.jpg"></div>
+      <div class="imagem3"><img src="./images/image-product-3-thumbnail.jpg"></div>
+      <div class="imagem4"><img src="./images/image-product-4-thumbnail.jpg"></div>
+      <div class="fabricante">Sneaker Company</div>
+      <div class="produto">Fall Limited Edition Sneakers</div>
+      <div class="descricao">Esses sneakers de baixo perfil são os acompanhamentos perfeitos para sua roupa casual.
+        Apresenta uma sola de borracha durável, suportando qualquer tipo de clima.
       </div>
-      <div class="lista">
-        <nav>
-          <ul>
-            <li>Coleções</li>
-            <li>Masculino</li>
-            <li>Feminino</li>
-            <li>Sobre</li>
-            <li>Contato</li>
-          </ul>
-        </nav>
+      <div class="valor-final">R$125,00</div>
+      <div class="desconto">50%</div>
+      <div class="valor-inicial">R$250,00</div>
+      <div class="button-quantidade">
+        <button id="button">
+          <img src="./images/icon-minus.svg" id="button-minus">0<img src="./images/icon-plus.svg" id="button-plus">
+        </button>
       </div>
-      <div class="carrinho">
-        <img src="./images/icon-cart.svg" alt="carrinho supermercado">
+      <div class="button-adicionar">
+        <button id="button">
+          <img src="./images/icon-cart.svg" id="button-cart"> Colocar no carrinho
+        </button>
       </div>
-      <div class="avatar">
-        <img src="./images/image-avatar.png" alt="carrinho supermercado">
-      </div>
-    </header>
+    </div>
+  </main>
 
-    <section>
-      <div class="container">
-        <div class="destaque"><img src="./images/image-product-1.jpg"></div>
-        <div class="imagem1"><img src="./images/image-product-1-thumbnail.jpg"></div>
-        <div class="imagem2"><img src="./images/image-product-2-thumbnail.jpg"></div>
-        <div class="imagem3"><img src="./images/image-product-3-thumbnail.jpg"></div>
-        <div class="imagem4"><img src="./images/image-product-4-thumbnail.jpg"></div>
-        <div class="fabricante">Sneaker Company</div>
-        <div class="produto">Fall Limited Edition Sneakers</div>
-        <div class="descricao">Esses sneakers de baixo perfil são os acompanhamentos perfeitos para sua roupa casual.
-          Apresenta uma sola de borracha durável, suportando qualquer tipo de clima
-        </div>
-        <div class="valor-final">R$125.00</div>
-        <div class="desconto">50%</div>
-        <div class="valor-inicial">R$250.00</div>
-        <div class="button-quantidade">
-          <button id="button">
-            <img src="./images/icon-minus.svg" id="button-minus">0<img src="./images/icon-plus.svg" id="button-plus">
-          </button>
-        </div>
-        <div class="button-adicionar">
-          <button id="button">
-            <img src="./images/icon-cart.svg" id="button-cart"> Colocar no carrinho
-          </button>
-        </div>
-      </div>
-    </section>
+  <footer>
+    <div class="attribution" hidden>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/">Fernando R Costa</a>.
+    </div>
+  </footer>
 
-    <footer>
-      <div class="attribution" hidden>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/">Fernando R Costa</a>.
-      </div>
-    </footer>
-
-  </body>
+</body>
 
 </html>

@@ -35,8 +35,8 @@ Users should be able to:
 ## My process
 
 - [x] Desktop-design
+- [30%] Mobile-design
 - [ ] Desktop-design-lightbox
-- [ ] Mobile-design
 - [ ] Interactive
 - [ ] Active-states-lightbox
 - [ ] Active-states-basket-empty
