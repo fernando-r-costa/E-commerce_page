@@ -263,12 +263,12 @@ nav li:hover {
 
 	.cabecalho {
 		display: grid;
-		grid-template-columns: 30px 340px 40px 40px;
+		grid-template-columns: 30px 165px 40px 40px;
 		grid-template-rows: 60px;
 		grid-column-gap: 20px;
 		grid-row-gap: 20px;
-		margin: 0 0 0 30px;
-		padding: 30px 0 40px 0;
+		margin: 0 0 0 20px;
+		padding: 10px 0 10px 0;
 		border-bottom: none;
 	}
 		
@@ -277,7 +277,7 @@ nav li:hover {
 	}
 
 	.menu img {
-		width: 100%;
+		width: 65%;
 	}
 
 	.logo {
@@ -294,7 +294,8 @@ nav li:hover {
 	}
 
 	.carrinho img {
-		width: 75%;
+		width: 50%;
+		padding: 0 0 0 20px;
 	}
 
 	.avatar {
@@ -302,7 +303,7 @@ nav li:hover {
 	}
 
 	.avatar img {
-		width: 100%;
+		width: 60%;
 	}
 	
 	.imagem1, .imagem2, .imagem3, .imagem4 {
@@ -312,26 +313,101 @@ nav li:hover {
 	.container {
 		margin: 0;
 		display: grid;
-		grid-template-columns: 11px 12px 13px;
-		grid-template-rows: 11px 12px 13px 14px 15px 16px 17px;
+		grid-template-columns: 120px 120px 120px;
+		grid-template-rows: 400px 30px 75px 130px 50px 70px 70px;
 		grid-column-gap: 5px;
 		grid-row-gap: 5px;
 	}
 	
-	.destaque { grid-area: 1 / 1 / 2 / 4; }
-	.fabricante { grid-area: 2 / 1 / 3 / 4; }
-	.produto { grid-area: 3 / 1 / 4 / 4; }
-	.descricao { grid-area: 4 / 1 / 5 / 4; }
-	.valor-final { grid-area: 5 / 1 / 6 / 2; }
-	.desconto { grid-area: 5 / 2 / 6 / 3; }
-	.valor-inicial { grid-area: 5 / 3 / 6 / 4; }
-	.button-quantidade { grid-area: 6 / 1 / 7 / 4; }
-	.button-adicionar { grid-area: 7 / 1 / 8 / 4; }
-	
-	/* .container img {
-		width: 100%;
+	.container img {
+		width: 375px;
 		border-radius: 0;
 		margin: 0;
-	} */
+	}
+
+	.destaque {
+		grid-area: 1 / 1 / 2 / 4;
+	}
+
+	.fabricante {
+		grid-area: 2 / 1 / 3 / 4;
+		padding: 0 0 0 20px;
+		font-size: 14px;
+	}
+
+	.produto {
+		grid-area: 3 / 1 / 4 / 4;
+		padding: 0 0 0 20px;
+		font-size: 30px;
+	}
+
+	.descricao {
+		grid-area: 4 / 1 / 5 / 4;
+		padding: 0 0 0 20px;
+		font-size: 16px;
+	}
+
+	.valor-final {
+		grid-area: 5 / 1 / 6 / 2;
+		padding: 0 0 0 20px;
+		font-size: 24px;
+	}
+	
+	.desconto {
+		grid-area: 5 / 2 / 6 / 3;
+		padding: 5px 5px 5px 5px;
+    	margin: 0 0 25px 0;
+		font-size: 14px;
+		border-radius: 5px;
+	}
+
+	.valor-inicial {
+		grid-area: 5 / 3 / 6 / 4;
+		padding: 5px 0 0 20px;
+		font-size: 14px;
+	}
+
+	.button-quantidade {
+		grid-area: 6 / 1 / 7 / 4;
+		padding: 0 0 0 20px;
+	}
+
+	.button-quantidade button {
+		width: 335px;
+		height: 60px;
+	}
+
+	.button-quantidade img {
+		width: 30%;
+	}
+
+	#button-minus {
+		width: 5%;
+		top: 5px;
+		left: -100px;
+	}
+
+	#button-plus {
+		width: 5%;
+		top: 7px;
+		left: 100px;
+	}
+
+	.button-adicionar {
+		grid-area: 7 / 1 / 8 / 4;
+		padding: 0 0 0 20px;
+	}
+	
+	.button-adicionar button {
+		width: 335px;
+		height: 60px;
+		font-size: 16px;
+	}
+
+	#button-cart {
+		width: 7%;
+	
+
+
 
 }
