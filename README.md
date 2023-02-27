@@ -36,11 +36,11 @@ Users should be able to:
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [ ] Desktop-design-lightbox
-- [ ] Interactive
-- [ ] Active-states-lightbox
-- [ ] Active-states-basket-empty
+- [30%] Interactive
+- [x] Active-states-basket-empty
 - [ ] Active-states-basket-filled
+- [ ] Desktop-design-lightbox
+- [ ] Active-states-lightbox
 
 ## Author
 

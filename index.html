@@ -39,19 +39,23 @@
     </div>
     <div class="carrinho">
       <img src="./images/icon-cart.svg" alt="carrinho supermercado">
+      <div class="dropdown-content">
+        <h1>Carrinho</h1>
+        <p>O carrinho está vazio.</p>
+      </div>
     </div>
     <div class="avatar">
       <img src="./images/image-avatar.png" alt="carrinho supermercado">
     </div>
   </header>
 
-  <main>
-    <div class="container">
-      <div class="destaque"><img src="./images/image-product-1.jpg"></div>
-      <div class="imagem1"><img src="./images/image-product-1-thumbnail.jpg"></div>
-      <div class="imagem2"><img src="./images/image-product-2-thumbnail.jpg"></div>
-      <div class="imagem3"><img src="./images/image-product-3-thumbnail.jpg"></div>
-      <div class="imagem4"><img src="./images/image-product-4-thumbnail.jpg"></div>
+  <main>    
+    <div class="container" id="container">
+      <div class="destaque"><img id="destaque" src="./images/image-product-1.jpg"></div>
+      <div class="imagem1"><img id="imagem1" src="./images/image-product-1-thumbnail.jpg"></div>
+      <div class="imagem2"><img id="imagem2" src="./images/image-product-2-thumbnail.jpg"></div>
+      <div class="imagem3"><img id="imagem3" src="./images/image-product-3-thumbnail.jpg"></div>
+      <div class="imagem4"><img id="imagem4" src="./images/image-product-4-thumbnail.jpg"></div>
       <div class="fabricante">Sneaker Company</div>
       <div class="produto">Fall Limited Edition Sneakers</div>
       <div class="descricao">Esses sneakers de baixo perfil são os acompanhamentos perfeitos para sua roupa casual.
@@ -61,7 +65,7 @@
       <div class="desconto">50%</div>
       <div class="valor-inicial">R$250,00</div>
       <div class="button-quantidade">
-        <button id="button">
+        <button id="button-quantidade">
           <img src="./images/icon-minus.svg" id="button-minus">0<img src="./images/icon-plus.svg" id="button-plus">
         </button>
       </div>
@@ -71,6 +75,8 @@
         </button>
       </div>
     </div>
+
+    
   </main>
 
   <footer>
@@ -79,6 +85,8 @@
       Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/">Fernando R Costa</a>.
     </div>
   </footer>
+
+  <script src="./script/main.js"></script>
 
 </body>
 
