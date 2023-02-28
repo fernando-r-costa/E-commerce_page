@@ -54,10 +54,10 @@ nav li:hover {
 	right: -60px;
 	background-color: white;
 	width: 300px;
-	height: 200px;
+	height: 250px;
 	box-shadow: 0px 8px 16px 0px rgb(110, 109, 109);
 	padding: 12px 16px;
-	z-index: 1;
+	z-index: 99;
 }
 
 .carrinho:hover .dropdown-carrinho {
@@ -73,11 +73,50 @@ nav li:hover {
 }
 
 .dropdown-carrinho p {
+	display: inline-block;
 	font-size: 16px;
 	font-weight: 500;
 	color: hsl(220, 14%, 75%);
-	padding: 40px 40px;
+	padding: 5px 0px 10px 10px;
+	text-align: right;
+}
+
+#produto-carrinho{
+	display: none;
+}
+
+#carrinho-vazio {
+	display: block;
+	padding: 70px;
+}
+
+
+#img-carrinho {
+	display: block;
+	margin-left: 60px;
+	width: 20%;
+}
+
+#lixeira-carrinho {
+	display: inline-block;
+	width: 10%;
+	margin: 10px 20px -10px 0;
+}
+
+.produto-carrinho button{
+	width: 220px;
+	background-color:hsl(26, 100%, 55%);
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 15px 15px 25px;
 	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .avatar img {
@@ -112,11 +151,13 @@ nav li:hover {
 	
 .destaque {
 	grid-area: 1 / 1 / 8 / 5;
-	position: relative;
 }
 
 #destaque {
 	width: 98%;
+	position: relative;
+	z-index: -2;
+	top: -50px
 }
 
 #destaque:hover {
@@ -127,16 +168,18 @@ nav li:hover {
 
 #previous {
 	width: 4%;
-    position: absolute;
+	position: relative;
     top: 45%;
-    left: 3%;
+    left: 4%;
+	z-index: 0;
 }
 
 #next {
 	width: 4.4%;
-    position: absolute;
-    top: 45%;
-    left: 90%;
+	position: relative;
+    top: -68%;
+    left: 88%;
+	z-index: 0;
 }
 
 .imagem1 {
@@ -222,13 +265,14 @@ nav li:hover {
 	padding-left: 120px;
 }
 
-.button-quantidade button {
-	width: 180px;
+#button-quantidade {
+	width: 110px;
+	height: 40px;
 	background-color:hsl(223, 64%, 98%);
 	border: none;
 	border-radius: 10px;
 	color: black;
-	padding: 5px 25px 15px 20px;
+	padding: 5px 25px 15px 50px;
 	font-weight: 700;
 	font-size: 20px;
 	display: inline-block;

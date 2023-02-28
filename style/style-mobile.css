@@ -40,7 +40,7 @@
     .dropdown-menu {
         display: none;
         position: absolute;
-        left: 0;
+        left: 30px;
         top: 0;
         background-color: white;
         width: 200px;
@@ -52,10 +52,6 @@
     
     .menu:hover .dropdown-menu {
         display: block;
-    }
-
-    .nav-menu {
-        margin-top: ;
     }
 
     .nav-menu li {
@@ -83,6 +79,15 @@
 		width: 50%;
 		padding: 0 0 0 20px;
 	}
+
+    .dropdown-carrinho {
+        right: -25px;
+        width: 230px;
+    }
+
+    .produto-carrinho button {
+        width: 135px;
+    }
 
 	.avatar {
 		grid-area: 1 / 4 / 2 / 5;
@@ -117,18 +122,21 @@
 
     #destaque {
         width: 100%;
+        top: -40px;
     }
     
     #previous {
-        position: absolute;
+        position: relative;
         width: 7%;
         left: 3%;
+        top: 40%
     }
     
     #next {
-        position: absolute;
+        position: relative;
         width: 7.2%;
         left: 89%;
+        top: -65%;
     }
 
 	.fabricante {
@@ -175,25 +183,29 @@
 		padding: 0 0 0 20px;
 	}
 
-	.button-quantidade button {
-		width: 335px;
-		height: 60px;
+	#button-quantidade {
+		width: 260px;
+		height: 45px;
 	}
 
 	.button-quantidade img {
 		width: 30%;
 	}
 
+    #quantidade {
+        margin: 0 70px;
+    }
+
 	#button-minus {
-		width: 5%;
-		top: 5px;
-		left: -100px;
+        width: 7%;
+        top: 5px;
+        left: -35px;
 	}
 
 	#button-plus {
-		width: 5%;
-		top: 7px;
-		left: 100px;
+		width: 7%;
+        top: 9px;
+        left: 45px;
 	}
 
 	.button-adicionar {
