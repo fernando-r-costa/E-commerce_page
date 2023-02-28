@@ -114,8 +114,28 @@ nav li:hover {
 	grid-area: 1 / 1 / 8 / 5;
 }
 
-.destaque img {
+#destaque {
 	width: 98%;
+}
+
+#destaque:hover {
+	box-shadow: none;
+	filter: none;
+	cursor: unset;
+}
+
+#previous {
+	width: 1%;
+    position: absolute;
+    top: 36%;
+    left: 8%;
+}
+
+#next {
+	width: 1.1%;
+    position: absolute;
+    top: 36%;
+    left: 33%;
 }
 
 .imagem1 {

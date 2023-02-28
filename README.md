@@ -36,7 +36,7 @@ Users should be able to:
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [50%] Interactive
+- [70%] Interactive
 - [x] Active-states-basket-empty
 - [ ] Active-states-basket-filled
 - [ ] Desktop-design-lightbox
