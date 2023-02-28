@@ -13,36 +13,36 @@ let quantidade = 0;
 let buttonQuantidade = document.getElementById("button-quantidade");
 
 // trocar a foto em destaque
-function trocaDestaque (src) {
-    destaque.setAttribute('src', src );
+function trocaDestaque (numImagem) {
+    destaque.setAttribute('src', `./images/image-product-${numImagem}.jpg`);
 }
+
 // trocar foto anterior e próxima
 function nextImagem() {
     if(numImagem < 4) {
         numImagem++;
-        trocaDestaque(`./images/image-product-${numImagem}.jpg`);
+        trocaDestaque(numImagem);
     } else if(numImagem === 4) {
         numImagem = 1;
-        trocaDestaque(`./images/image-product-${numImagem}.jpg`);
+        trocaDestaque(numImagem);
     }
 }
 
 function previousImagem() {
     if(numImagem > 1) {
         numImagem--;
-        trocaDestaque(`./images/image-product-${numImagem}.jpg`);
+        trocaDestaque(numImagem);
     } else if(numImagem === 1) {
         numImagem = 4;
-        trocaDestaque(`./images/image-product-${numImagem}.jpg`);
-
+        trocaDestaque(numImagem);
     }
 }
 
 
-imagem1.addEventListener ("click", function() {trocaDestaque("./images/image-product-1.jpg");});
-imagem2.addEventListener ("click", function() {trocaDestaque("./images/image-product-2.jpg");});
-imagem3.addEventListener ("click", function() {trocaDestaque("./images/image-product-3.jpg");});
-imagem4.addEventListener ("click", function() {trocaDestaque("./images/image-product-4.jpg");});
+imagem1.addEventListener ("click", function() {trocaDestaque(1);});
+imagem2.addEventListener ("click", function() {trocaDestaque(2);});
+imagem3.addEventListener ("click", function() {trocaDestaque(3);});
+imagem4.addEventListener ("click", function() {trocaDestaque(4);});
 previous.addEventListener ("click", function() {previousImagem()});
 next.addEventListener ("click", function() {nextImagem()});
 

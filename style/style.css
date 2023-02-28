@@ -112,6 +112,7 @@ nav li:hover {
 	
 .destaque {
 	grid-area: 1 / 1 / 8 / 5;
+	position: relative;
 }
 
 #destaque {
@@ -125,17 +126,17 @@ nav li:hover {
 }
 
 #previous {
-	width: 1%;
+	width: 4%;
     position: absolute;
-    top: 36%;
-    left: 8%;
+    top: 45%;
+    left: 3%;
 }
 
 #next {
-	width: 1.1%;
+	width: 4.4%;
     position: absolute;
-    top: 36%;
-    left: 33%;
+    top: 45%;
+    left: 90%;
 }
 
 .imagem1 {
