@@ -1,46 +1,50 @@
-# Frontend Mentor - E-commerce product page solution
+# Solução de página de comércio eletrônico de produto
 
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Índice
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [Visão Geral](#visao-geral)
+  - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-- [Author](#author)
+- [Meu processo](#meu-processo)
+- [Autor](#autor)
 
-## Overview
 
-### The challenge
+## Visão Geral
 
-Users should be able to:
+### O Desafio
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Open a lightbox gallery by clicking on the large product image
-- Switch the large product image by clicking on the small thumbnail images
-- Add items to the cart
-- View the cart and remove items from it
+Os usuários deverão ter a capacidade de:
+
+- Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo;
+- Ver os estados de foco para todos os elementos interativos na página;
+- Abrir uma galeria lightbox clicando na imagem grande do produto;
+- Mudar a imagem grande do produto clicando nas pequenas imagens em miniatura;
+- Adicionar itens ao carrinho;
+- Visualizar o carrinho e remover itens dele.
+
 
 ### Screenshot
 
 ![](./design/desktop-preview.jpg)
 
+
 ### Links
 
-- Live Site URL: [E-commerce page](https://e-commerce-page-lovat.vercel.app/)
+- Site URL: [E-commerce page](https://e-commerce-page-lovat.vercel.app/)
 
-## My process
+
+## Meu processo
 
 - [x] Desktop-design
 - [x] Mobile-design
-- [x] Interactive
-- [x] Active-states-basket-empty
-- [x] Active-states-basket-filled
+- [x] Interação
+- [x] Estado-vazio-carrinho
+- [x] Estado-cheio-carrinho
 - [ ] Lightbox
 
-## Author
+
+## Autor
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
