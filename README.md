@@ -3,7 +3,7 @@
 
 ## Índice
 
-- [Visão Geral](#visao-geral)
+- [Visão Geral](#visão-geral)
   - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
